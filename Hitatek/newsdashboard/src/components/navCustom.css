@@ -1,0 +1,40 @@
+#navCustom{
+    background-color: rgb(0, 93, 153)!important;
+}
+
+#navCustom a {
+    color: white !important;
+}
+
+#navText li a{
+    padding-right: 1rem!important;
+}
+
+#TRT {
+    display: flex !important;
+    align-items: center; /* Yatay hizalama */
+    padding-left: 3% !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+#TRTWORLD {
+    display: flex !important;
+    align-items: center; /* Yatay hizalama */
+    color: rgb(49, 212, 251) !important;
+    font-weight: bold !important;
+}
+
+#transparent {
+    background-color: transparent;
+    border: none !important;
+}
+
+.nav-link {
+    display: flex; /* İçeriği yan yana düzenle */
+    align-items: center; /* Dikey hizalamayı ayarla */
+  }
+
+  .nav-link img {
+    margin-right: 8px; /* Resim ile metin arasına boşluk bırak */
+  }

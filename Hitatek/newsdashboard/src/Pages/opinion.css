@@ -1,0 +1,44 @@
+.holder ul li::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    line-height: 1em;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  #aBlack{
+    color: black;
+  }
+  /* Başlangıçtaki "li" etiketini gizle */
+  .holder  ul li::marker {
+    content: none;
+    display: none;
+  }
+
+  #thumb1 {
+    padding-top: 5%;
+    font-size: 3.1rem;
+    font-weight: bold; /* font-weight özelliği kullanılıyor */
+    text-align: left; /* Yazıyı sola hizala */
+    margin-left: 0; /* Sol kenar boşluğunu kaldır */
+  }
+
+  .vertical-hr {
+    border-left: 0.5px solid rgb(181, 180, 180);
+    height: 800px;
+    position:absolute;
+    left: 51%;
+  }
+
+  .vertical-hr2 {
+    border-left: 0.5px solid rgb(188, 186, 186);
+    height: 800px;
+    position:absolute;
+    left: 76%;
+  }
